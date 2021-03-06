@@ -1,17 +1,11 @@
 <script>
   import PollStore from '../stores/PollStore.js';
   import PollDetail from './PollDetail.svelte';
-
-  let polls = [];
-
-  PollStore.subscribe(data => {
-    polls = data;
-  })
 </script>
 
 <div class="poll-list">
   {#each $PollStore as poll (poll.id)}
-    <PollDetail {poll} on:vote />
+    <PollDetail {poll} />
   {/each}
 </div>
 
