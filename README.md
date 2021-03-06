@@ -12,7 +12,11 @@
 - No extra scripts or libraries are shipped to production
 - Often results in a faster running website
 
-## User input & Data binding
+---
+
+## Basic
+
+### User input & Data binding
 
 ```html
 <script>
@@ -33,7 +37,7 @@
 <input type="text" bind:value="{beltColor}" />
 ```
 
-## Reactive values & Reactive statements
+### Reactive values & Reactive statements
 
 - 값이 변하면 자동으로 업데이트(실행)해준다.
 
@@ -58,7 +62,7 @@
 </main>
 ```
 
-## Loops
+### Loops
 
 ```html
 <script>
@@ -81,7 +85,7 @@
 </main>
 ```
 
-## Inline event handlers
+### Inline event handlers
 
 ```html
 <script>
@@ -110,7 +114,7 @@
 </main>
 ```
 
-## Conditionals
+### Conditionals
 
 ```html
 <script>
@@ -128,7 +132,7 @@
 </main>
 ```
 
-## CSS & Conditional styles
+### CSS & Conditional styles
 
 - global.css에 작성한 스타일은 모든 component에 적용
 - component안에서 작성한 스타일은 해당 component에서만 적용
@@ -148,7 +152,7 @@
 {/if}
 ```
 
-## Props
+### Props
 
 ```html
 // App.svelte
@@ -169,7 +173,7 @@
 {/if}
 ```
 
-## Event forwarding
+### Event forwarding
 
 - component를 사용한 곳에서 이벤트를 달아주고 싶을 때 사용 (해당 component에서는 이벤트를 달아주기만 하면 됨)
 
@@ -196,7 +200,7 @@
 {/if}
 ```
 
-## Event modifiers
+### Event modifiers
 
 - once: makes sure the event can only fire once (removes handler)
 - preventDefault: prevent the default action (run e.preventDefault())
@@ -212,7 +216,7 @@
 {/if}
 ```
 
-## Slots
+### Slots
 
 - react의 children과 같은 개념
 
@@ -248,7 +252,7 @@
 >
 ```
 
-## Forms
+### Forms
 
 ```html
 <script>
@@ -289,7 +293,7 @@
 </form>
 ```
 
-## Dispatching custom events
+### Dispatching custom events
 
 ```html
 // AddPersonForm.svelte
