@@ -14,9 +14,9 @@
 
 ---
 
-## Basic
+## Basic Syntax
 
-### User input & Data binding
+### ◼ User input & Data binding
 
 ```html
 <script>
@@ -39,7 +39,7 @@
 
 <br />
 
-### Reactive values & Reactive statements
+### ◼ Reactive values & Reactive statements
 
 - 값이 변하면 자동으로 업데이트(실행)해준다.
 
@@ -66,7 +66,7 @@
 
 <br />
 
-### Loops
+### ◼ Loops
 
 ```html
 <script>
@@ -91,7 +91,7 @@
 
 <br />
 
-### Inline event handlers
+### ◼ Inline event handlers
 
 ```html
 <script>
@@ -122,7 +122,7 @@
 
 <br />
 
-### Conditionals
+### ◼ Conditionals
 
 ```html
 <script>
@@ -142,7 +142,7 @@
 
 <br />
 
-### CSS & Conditional styles
+### ◼ CSS & Conditional styles
 
 - global.css에 작성한 스타일은 모든 component에 적용
 - component안에서 작성한 스타일은 해당 component에서만 적용
@@ -164,7 +164,7 @@
 
 <br />
 
-### Props
+### ◼ Props
 
 ```html
 // App.svelte
@@ -187,7 +187,7 @@
 
 <br />
 
-### Event forwarding
+### ◼ Event forwarding
 
 - component를 사용한 곳에서 이벤트를 달아주고 싶을 때 사용 (해당 component에서는 이벤트를 달아주기만 하면 됨)
 
@@ -216,7 +216,7 @@
 
 <br />
 
-### Event modifiers
+### ◼ Event modifiers
 
 - once: makes sure the event can only fire once (removes handler)
 - preventDefault: prevent the default action (run e.preventDefault())
@@ -234,7 +234,7 @@
 
 <br />
 
-### Slots
+### ◼ Slots
 
 - react의 children과 같은 개념
 
@@ -272,7 +272,7 @@
 
 <br />
 
-### Forms
+### ◼ Forms
 
 ```html
 <script>
@@ -315,7 +315,7 @@
 
 <br />
 
-### Dispatching custom events
+### ◼ Dispatching custom events
 
 ```html
 // AddPersonForm.svelte
