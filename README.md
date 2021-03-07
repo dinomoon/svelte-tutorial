@@ -2,13 +2,13 @@
 
 ## What is svelte?
 
-- `Compliler` for creating reactive web apps & interfaces
+- **`Compliler`** for creating reactive web apps & interfaces
 - Can be used for small parts of a site, or entirely (SPA)
 
 ## Other framework differences
 
 - Svelte is a compiler not a framework
-- Svelte compiles your code for production at `build time` into a single, vanila, JavaScript bundle
+- Svelte compiles your code for production at **`build time`** into a single, vanila, JavaScript bundle
 - No extra scripts or libraries are shipped to production
 - Often results in a faster running website
 
