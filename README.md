@@ -2,7 +2,7 @@
 
 ## What is svelte?
 
-- `Compliler**` for creating reactive web apps & interfaces
+- `Compliler` for creating reactive web apps & interfaces
 - Can be used for small parts of a site, or entirely (SPA)
 
 ## Other framework differences
