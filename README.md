@@ -2,13 +2,13 @@
 
 ## What is svelte?
 
-- Compliler for creating reactive web apps & interfaces
+- `Compliler` for creating reactive web apps & interfaces
 - Can be used for small parts of a site, or entirely (SPA)
 
 ## Other framework differences
 
 - Svelte is a compiler not a framework
-- Svelte compiles your code for production at build time into a single, vanila, JavaScript bundle
+- Svelte compiles your code for production at `build time` into a single, vanila, JavaScript bundle
 - No extra scripts or libraries are shipped to production
 - Often results in a faster running website
 
@@ -37,6 +37,8 @@
 <input type="text" bind:value="{beltColor}" />
 ```
 
+<br />
+
 ### Reactive values & Reactive statements
 
 - 값이 변하면 자동으로 업데이트(실행)해준다.
@@ -62,6 +64,8 @@
 </main>
 ```
 
+<br />
+
 ### Loops
 
 ```html
@@ -84,6 +88,8 @@
   {/each}
 </main>
 ```
+
+<br />
 
 ### Inline event handlers
 
@@ -114,6 +120,8 @@
 </main>
 ```
 
+<br />
+
 ### Conditionals
 
 ```html
@@ -131,6 +139,8 @@
   {/if}
 </main>
 ```
+
+<br />
 
 ### CSS & Conditional styles
 
@@ -152,6 +162,8 @@
 {/if}
 ```
 
+<br />
+
 ### Props
 
 ```html
@@ -172,6 +184,8 @@
 </div>
 {/if}
 ```
+
+<br />
 
 ### Event forwarding
 
@@ -200,6 +214,8 @@
 {/if}
 ```
 
+<br />
+
 ### Event modifiers
 
 - once: makes sure the event can only fire once (removes handler)
@@ -215,6 +231,8 @@
 </div>
 {/if}
 ```
+
+<br />
 
 ### Slots
 
@@ -251,6 +269,8 @@
   ></Modal
 >
 ```
+
+<br />
 
 ### Forms
 
@@ -292,6 +312,8 @@
   <button>Add Person</button>
 </form>
 ```
+
+<br />
 
 ### Dispatching custom events
 
